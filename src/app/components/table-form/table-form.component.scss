@@ -1,0 +1,89 @@
+table {
+    table-layout: fixed;
+    width: 2000px;
+    height: 100px;
+}
+
+tr {
+    width: 100%;
+}
+
+.th-title {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: black 1px solid;
+    width: 7%;
+}
+
+.th-multiple-row-top {
+    display: flex;
+    width: 100%; 
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.tr-multiple-row-top {
+    width: 100%; 
+    display: inline-block;
+    height: 40%;
+    align-items: center;
+}
+
+.tr-multiple-row-bottom {
+    width: 100%; 
+    display: inline-block;
+    height: 60%;
+}
+
+.container-checkbox {
+    width: 4%;
+}
+
+.item-title-4cols {
+    display: inline-flex;
+    width: 25%;
+    height: 100%;
+    border-top: black 1px solid;
+    border-right: black 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-item-title-4cols {
+    display: inline-flex;
+    width: 25%;
+    height: 100%;
+    border-top: black 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-title-5cols {
+    display: inline-flex;
+    width: 20%;
+    height: 100%;
+    border-top: black 1px solid;
+    border-right: black 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-item-title-5cols {
+    display: inline-flex;
+    width: 20%;
+    height: 100%;
+    border-top: black 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.th-multiple-row-4cols {
+    width: 30%;
+    height: 100%;
+}
+
+.th-multiple-row-5cols {
+    width: 40%;
+    height: 100%;
+}

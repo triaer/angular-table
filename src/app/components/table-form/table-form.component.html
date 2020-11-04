@@ -1,0 +1,102 @@
+<div style="overflow-x:scroll;">
+  <table>
+    <tr>
+      <th class="th-title container-checkbox">
+        <ion-checkbox></ion-checkbox>
+      </th>
+      <th class="th-title">Quan hệ</th>
+      <th class="th-title">Họ và tên</th>
+      <th class="th-title">Giới tính</th>
+      <th class="th-title">Ngày sinh</th>
+      <th class="th-title">Độ tuổi</th>
+      <th class="th-title">Giảm trừ gia cảnh</th>
+      <th class="th-title">Địa chỉ nhà riêng</th>
+      <th class="th-title th-multiple-row-4cols">
+        <tr class="tr-multiple-row-top">
+          <th colspan="4" class="th-multiple-row-top">CMND</th>
+        </tr>
+        <tr class="tr-multiple-row-bottom">
+          <th class="item-title-4cols">Số CMND</th>
+          <th class="item-title-4cols">Ngày cấp CMND</th>
+          <th class="item-title-4cols">Ngày hết hạn CMND</th>
+          <th class="last-item-title-4cols">Nơi cấp CMND</th>
+        </tr>
+        </th>
+        <th class="th-title th-multiple-row-5cols">
+          <tr class="tr-multiple-row-top">
+            <th colspan="5" class="th-multiple-row-top">Hộ chiếu</th>
+          </tr>
+          <tr class="tr-multiple-row-bottom">
+            <th class="item-title-5cols">Số hộ chiếu</th>
+            <th class="item-title-5cols">Loại hộ chiếu</th>
+            <th class="item-title-5cols">Ngày cấp hộ chiếu</th>
+            <th class="item-title-5cols">Ngày hết hạn hộ chiếu</th>
+            <th class="last-item-title-5cols">Nơi cấp hộ chiếu</th>
+          </tr>
+        </th>
+      <th class="th-title">Nghề nghiệp</th>
+      <th class="th-title">Ghi chú</th>
+    </tr>
+    <tr>
+      <ng-container matColumnDef="checkbox">
+        <th class="th-title container-checkbox">
+          <ion-checkbox></ion-checkbox>
+        </th>
+      </ng-container>
+      <ng-container matColumnDef="relationship">
+        <th class="th-title">Quan hệ</th>
+      </ng-container>
+      <ng-container matColumnDef="fullName">
+        <th class="th-title">Họ và tên</th>
+      </ng-container>
+      <ng-container matColumnDef="gender">
+        <th class="th-title">Giới tính</th>
+      </ng-container>
+      <ng-container matColumnDef="birthday">
+        <th class="th-title">Ngày sinh</th>
+      </ng-container>
+      <ng-container matColumnDef="age">
+        <th class="th-title">Độ tuổi</th>
+      </ng-container>
+      <ng-container matColumnDef="familyCircumtanceDeductions">
+        <th class="th-title">Giảm trừ gia cảnh</th>
+      </ng-container>
+      <ng-container matColumnDef="address">
+        <th class="th-title">Địa chỉ nhà riêng</th>
+      </ng-container>
+      <ng-container matColumnDef="identityCardNumber">
+        <th class="th-title th-multiple-row-4cols">
+    <tr class="tr-multiple-row-top">
+      <th colspan="4" class="th-multiple-row-top">CMND</th>
+    </tr>
+    <tr class="tr-multiple-row-bottom">
+      <th class="item-title-4cols">Số CMND</th>
+      <th class="item-title-4cols">Ngày cấp CMND</th>
+      <th class="item-title-4cols">Ngày hết hạn CMND</th>
+      <th class="last-item-title-4cols">Nơi cấp CMND</th>
+    </tr>
+    </th>
+    </ng-container>
+    <ng-container matColumnDef="passport">
+      <th class="th-title th-multiple-row-5cols">
+        <tr class="tr-multiple-row-top">
+          <th colspan="5" class="th-multiple-row-top">Hộ chiếu</th>
+        </tr>
+        <tr class="tr-multiple-row-bottom">
+          <th class="item-title-5cols">Số hộ chiếu</th>
+          <th class="item-title-5cols">Loại hộ chiếu</th>
+          <th class="item-title-5cols">Ngày cấp hộ chiếu</th>
+          <th class="item-title-5cols">Ngày hết hạn hộ chiếu</th>
+          <th class="last-item-title-5cols">Nơi cấp hộ chiếu</th>
+        </tr>
+      </th>
+    </ng-container>
+    <ng-container matColumnDef="career">
+      <th class="th-title">Nghề nghiệp</th>
+    </ng-container>
+    <ng-container matColumnDef="note">
+      <th class="th-title">Ghi chú</th>
+    </ng-container>
+    </tr>
+  </table>
+</div>
